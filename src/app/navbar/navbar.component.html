@@ -1,0 +1,27 @@
+
+    <div class="container">
+      <nav class="navbar navbar-light">
+        <a class="navbar-brand">
+          <img src="../assets/logo.jpg" alt="">
+        </a>
+        <div>
+          <img src="../assets/digital-india.png" alt="">
+          <img src="../assets/google.png" alt="">
+        </div>
+      </nav>
+      </div>
+      <div class="navbar">
+        <ul class="main-navigation">
+          <li> <a href="" routerLink="" >Home</a> </li>
+          <li><a href=""  routerLink="/aboutus">About US</a></li>
+          <li> <a href="" routerLink="/contactus" >Contact US</a></li>
+          <li> <a href=""routerLink="/login">Login</a></li>
+          <li>
+            <a mat-button [matMenuTriggerFor]="menu">New Registration</a>
+            <mat-menu #menu="matMenu">
+              <button mat-menu-item routerLink="/student-register">Student Registration</button>
+              <button mat-menu-item routerLink="/institute-register">Institute Registration</button>
+            </mat-menu>
+          </li>
+        </ul>
+      </div>
