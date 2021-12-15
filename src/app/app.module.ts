@@ -17,6 +17,9 @@ import {MatButtonModule} from '@angular/material/button';
 import {FormControl, FormGroupDirective, FormsModule, NgForm, Validators} from '@angular/forms';
 import { StudentRegisterComponent } from './student-register/student-register.component';
 import { InstituteRegisterComponent } from './institute-register/institute-register.component';
+import { MinisteryLoginComponent } from './ministery-login/ministery-login.component';
+import { NodalLoginComponent } from './nodal-login/nodal-login.component';
+import { InstituteLoginComponent } from './institute-login/institute-login.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -27,7 +30,10 @@ import { InstituteRegisterComponent } from './institute-register/institute-regis
     ContactUsComponent,
     LoginComponent,
     StudentRegisterComponent,
-    InstituteRegisterComponent
+    InstituteRegisterComponent,
+    MinisteryLoginComponent,
+    NodalLoginComponent,
+    InstituteLoginComponent
   ],
   imports: [
     BrowserModule,

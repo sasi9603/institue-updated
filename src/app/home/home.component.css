@@ -4,12 +4,12 @@
 li{
     list-style: none;
 }
-.mat-card-heading{
+ .mat-card-heading{
     background-color:#D7675C !important;
     padding:5px !important;
     color: #fff;
-  }
-  
+  } 
+
    .mat-card{
     padding:0 !important;
   }
@@ -30,3 +30,4 @@ li{
 .desc-para{
     padding: 16px;
 }
+
