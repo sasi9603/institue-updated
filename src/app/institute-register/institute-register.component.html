@@ -1,1 +1,103 @@
-<p>institute-register works!</p>
+<div class="container">
+    <h1>Institute Registration</h1>
+    <form action="">
+        <h3>BASIC DETAILS <span style="color: red;">*</span></h3>
+        <label for="institute-category">Instite Category:</label>
+        <select id="country" name="State of Domincile">
+            <option value="list1">list1</option>
+            <option value="list2">list2</option>
+            <option value="list3">list3</option>
+          </select>
+          <label for="fname">Name</label>
+          <input type="text" id="fname" name="firstname" placeholder="Your name..">
+          <label for="State of Domincile">State</label>
+          <select id="country" name="State of Domincile">
+              <option value="list1">list1</option>
+              <option value="list2">list2</option>
+              <option value="list3">list3</option>
+            </select>
+            <label for="District">District:</label>
+            <select id="country" name="District">
+              <option value="District1">District1</option>
+              <option value="District2">District2</option>
+              <option value="District3">District3</option>
+            </select>
+            <label for="institute code">Institute Code</label>
+            <input type="text" placeholder="enter a institute code">
+            <label for="dise code">DISE Code</label>
+            <input type="text" placeholder="enter a dise code"> 
+            <hr>
+           <h2>Location:<span style="color: red;">*</span></h2>
+           <hr>
+             <input type="radio" id="rural" name="fav_language" value="rural">
+             <label for="rural">RURAl</label>
+             <input type="radio" id="css" name="fav_language" value="urban">
+             <label for="urban">URBAN</label><br>
+            <label for="institute type">Institute type</label>
+            <select>
+                <option value="list1">institute1</option>
+                <option value="list2">institute2</option>
+                <option value="list3">institute3</option>
+              </select> 
+            <label for="State of Domincile">Affiliated university state</label>
+          <select>
+              <option value="list1">list1</option>
+              <option value="list2">list2</option>
+              <option value="list3">list3</option>
+            </select>
+            <label for="Affiliated university">Affiliated university/Board name</label>
+            <input type="text" placeholder="enter a Affiliated university/board name">
+            <label for="year from">Year from which admission started</label>
+            <select>
+                <option value="list1">2019</option>
+                <option value="list2">2020</option>
+                <option value="list3">2021</option>
+              </select>
+            <label for="bank">Set Password</label>
+            <input type="text" placeholder="enter a  password">
+            <label for="bank">Confirm password</label>
+            <input type="text" placeholder="enter a  Confirm password">
+            <hr>
+            <h2>Proof of existance of institute <span style="color: red;">*</span></h2>
+            <hr>
+            <label for="institute">Institute Establishment/Registration certificate</label>
+            <input type="file">
+            <h2>Affiliated To:</h2>
+            <label for="">University/Board affiliation certificate</label>
+            <input type="file">
+            <hr>
+            <h2>Address:<span style="color: red;">*</span></h2>
+            <hr>
+            <label for="">Line1:</label>
+            <input type="text">
+            <label for="line2">Line2:</label>
+            <input type="text">
+            <label for="state">City:</label>
+            <input type="text">
+            <label for="State of Domincile">State:</label>
+          <select id="country" name="State of Domincile">
+              <option value="list1">list1</option>
+              <option value="list2">list2</option>
+              <option value="list3">list3</option>
+            </select>
+            <label for="District">District:</label>
+            <select id="country" name="District">
+              <option value="District1">District1</option>
+              <option value="District2">District2</option>
+              <option value="District3">District3</option>
+            </select>
+            <label for="pincode">Pincode:</label>
+            <input type="text">
+            <hr>
+            <h2>Contact Details<span style="color: red;">*</span></h2>
+            <hr>
+            <input type="text" name="" id="" placeholder="Prinicipal name">
+            <input type="text" name="" id="" placeholder="Mobile number">
+            <input type="text" name="" id="" placeholder="Telephone">
+            <input type="checkbox" id="agree" name="vehicle1" value="Bike">
+            <label for="vehicle1"> agree with terms & condition</label><br>
+            <button mat-raised-button  class="btn-student2" color="primary">Submit</button>
+   
+             <button mat-raised-button  class="btn-student2" color="warn">Reset</button>
+    </form>
+</div>
